@@ -1,0 +1,51 @@
+body{
+    margin: 1%;
+    height: 100px;;
+}
+header img
+{
+height:100px;
+width:100px ;
+margin-top: -160px;
+padding: 10px;
+}
+header
+{
+    height: 100px;
+    background-color: blueviolet;
+}
+header h1{
+    text-align: center;
+    padding: 36px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row.content {height: 1500px}
+    
+.col-sm-9 img {
+    height: 500px;
+    width: 100%;
+    padding: -200px;
+
+}   
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+footer {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+}
+footer p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
